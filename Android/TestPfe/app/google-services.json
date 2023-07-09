@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969476378553",
+    "project_id": "farming-closer",
+    "storage_bucket": "farming-closer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969476378553:android:ff3129f213d3c230d93068",
+        "android_client_info": {
+          "package_name": "com.example.testpfe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969476378553-66aq7psskaj33vtj3qkgr2ecmg31hs3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDDFoqE18djdpdIgej8G4_KzROBshNU-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969476378553-66aq7psskaj33vtj3qkgr2ecmg31hs3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

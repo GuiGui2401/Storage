@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-08-25T11:24:35.099933",
+    "startedAt": "2022-08-25T11:24:14.573787",
+    "docker": null,
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Untitled1.ipynb",
+    "root": "C:\\Users\\yabakar\\Documents\\ImageClassifier",
+    "host": "DESKTOP-GRUCCK0",
+    "username": "yabakar",
+    "executable": "C:\\Users\\yabakar\\Anaconda3\\envs\\env_deeplearning\\python.exe"
+}

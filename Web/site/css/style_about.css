@@ -1,0 +1,25 @@
+.log
+{
+    color: black;
+}
+.logo
+{
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+    text-shadow: 1px 2px 3px gray;
+}
+ul
+{
+    margin-left: 50px;
+}
+
+#tutelle
+{
+    margin-left: 50%;
+}
+section
+{
+    margin: 0px;
+    font-size: 25px;
+}

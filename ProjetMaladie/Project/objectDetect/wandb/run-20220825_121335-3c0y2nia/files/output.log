@@ -1,0 +1,110 @@
+WARNING:tensorflow:From C:\Users\yabakar\Anaconda3\envs\env_deeplearning\lib\site-packages\tensorflow\python\ops\math_ops.py:3836: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+Epoch 1/10
+   1/7500 [..............................] - ETA: 1:44:26 - loss: 0.6675 - accuracy: 0.5625WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0012s vs `on_train_batch_end` time: 0.0025s). Check your callbacks.
+ 860/7500 [==>...........................] - ETA: 12s - loss: 0.7024 - accuracy: 0.5041
+
+
+
+
+
+
+
+7500/7500 [==============================] - 16s 2ms/step - loss: 0.6946 - accuracy: 0.5066
+Epoch 2/10
+
+
+
+
+
+7500/7500 [==============================] - 14s 2ms/step - loss: 0.6932 - accuracy: 0.5085
+Epoch 3/10
+
+
+
+
+
+
+
+7500/7500 [==============================] - 15s 2ms/step - loss: 0.6929 - accuracy: 0.5086
+Epoch 4/10
+
+
+
+
+
+
+7500/7500 [==============================] - 16s 2ms/step - loss: 0.6925 - accuracy: 0.5106
+Epoch 5/10
+
+
+
+
+
+
+
+7500/7500 [==============================] - 16s 2ms/step - loss: 0.6921 - accuracy: 0.5111
+Epoch 6/10
+
+
+
+
+
+
+
+7500/7500 [==============================] - 15s 2ms/step - loss: 0.6918 - accuracy: 0.5133
+Epoch 7/10
+
+
+
+
+
+
+7500/7500 [==============================] - 15s 2ms/step - loss: 0.6911 - accuracy: 0.5152
+Epoch 8/10
+
+
+
+
+
+
+
+7500/7500 [==============================] - 15s 2ms/step - loss: 0.6904 - accuracy: 0.5177
+Epoch 9/10
+
+
+
+
+
+
+
+7500/7500 [==============================] - 16s 2ms/step - loss: 0.6894 - accuracy: 0.5199
+Epoch 10/10
+
+
+
+
+
+
+
+7500/7500 [==============================] - 17s 2ms/step - loss: 0.6886 - accuracy: 0.5222
+OK
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ flatten_input (InputLayer)     [(None, 28, 28)]     0           []
+ flatten_1_input (InputLayer)   [(None, 28, 28)]     0           []
+ flatten (Flatten)              (None, 784)          0           ['flatten_input[0][0]']
+ flatten_1 (Flatten)            (None, 784)          0           ['flatten_1_input[0][0]']
+ dense (Dense)                  (None, 128)          100480      ['flatten[0][0]']
+ dense_1 (Dense)                (None, 128)          100480      ['flatten_1[0][0]']
+ concatenate (Concatenate)      (None, 256)          0           ['dense[0][0]',
+                                                                  'dense_1[0][0]']
+ dense_2 (Dense)                (None, 1)            257         ['concatenate[0][0]']
+==================================================================================================
+Total params: 201,217
+Trainable params: 201,217
+Non-trainable params: 0
+__________________________________________________________________________________________________

@@ -1,0 +1,1 @@
+labels = ['black pod jaune', 'cocoa midrid bleu', 'swollen shoot red', 'watery pod rot', 'witches broom']

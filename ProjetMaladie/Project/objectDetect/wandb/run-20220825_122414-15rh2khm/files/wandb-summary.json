@@ -1,0 +1,1 @@
+{"GFLOPs": 0.0002010885, "graph": {"_type": "graph-file", "sha256": "a9be6166259ce3fb580d9711b3d35f9667cc5fb0fb07a39a146333ba1679509d", "size": 1199, "path": "media/graph/graph_summary_a9be6166259ce3fb580d.graph.json"}, "epoch": 9, "_timestamp": 1661426905.2968829, "_runtime": 236.18699288368225, "loss": 0.688995361328125, "accuracy": 0.5204749703407288, "_step": 9}

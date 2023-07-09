@@ -1,0 +1,33 @@
+.log
+{
+    color: pink;
+}
+.logo
+{
+    font-size: 35px;
+    font-weight: 900;
+    color: red;
+    text-shadow: 1px 2px 3px red;
+}
+ul
+{
+    margin-left: 50px;
+}
+footer
+{
+    margin-top: 4%;
+    background-color: gray;
+}
+#tutelle
+{
+    margin-left: 50%;
+}
+footer>p
+{
+    font-size: 30px;
+}
+body
+{
+    margin: 0px;
+    font-size: 25px;
+}

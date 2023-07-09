@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PayTrans</string>
+    <string name="required_field">Champ obligatoire</string>
+    <string-array name="currency">
+        <item>CDF</item>
+        <item>GNF</item>
+        <item>USD</item>
+        <item>XOF</item>
+        <item>XAF</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+			  My Book
+		--------------------------
+
+
+Bienvenue dans le guide de notre site web
+
+POur faire fonctionner ce site web en local vous avez besoin
+
+--> Un logiciel qui sert de serveur WAMP(windows),MAMP(macOs)
+		Nous avons utiliser wamp pour gerer :) !
+--> D'une base de donnée contenant les informartions sur les livres
+
+

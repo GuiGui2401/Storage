@@ -1,0 +1,128 @@
+Epoch 1/10
+   1/7500 [..............................] - ETA: 53:07 - loss: 0.6336 - accuracy: 0.5625WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0012s vs `on_train_batch_end` time: 0.0022s). Check your callbacks.
+
+
+
+
+
+7500/7500 [==============================] - 16s 2ms/step - loss: 0.6945 - accuracy: 0.5028
+Epoch 2/10
+
+
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 24s 3ms/step - loss: 0.6932 - accuracy: 0.5077
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 20s 3ms/step - loss: 0.6928 - accuracy: 0.5094
+Epoch 4/10
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 19s 3ms/step - loss: 0.6925 - accuracy: 0.5101
+Epoch 5/10
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 20s 3ms/step - loss: 0.6921 - accuracy: 0.5122
+Epoch 6/10
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 22s 3ms/step - loss: 0.6917 - accuracy: 0.5145
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 22s 3ms/step - loss: 0.6913 - accuracy: 0.5175
+Epoch 8/10
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 19s 3ms/step - loss: 0.6906 - accuracy: 0.5183
+Epoch 9/10
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 19s 3ms/step - loss: 0.6899 - accuracy: 0.5187
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+
+7500/7500 [==============================] - 22s 3ms/step - loss: 0.6891 - accuracy: 0.5215
+OK
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ flatten_input (InputLayer)     [(None, 28, 28)]     0           []
+ flatten_1_input (InputLayer)   [(None, 28, 28)]     0           []
+ flatten (Flatten)              (None, 784)          0           ['flatten_input[0][0]']
+ flatten_1 (Flatten)            (None, 784)          0           ['flatten_1_input[0][0]']
+ dense (Dense)                  (None, 128)          100480      ['flatten[0][0]']
+ dense_1 (Dense)                (None, 128)          100480      ['flatten_1[0][0]']
+ concatenate (Concatenate)      (None, 256)          0           ['dense[0][0]',
+                                                                  'dense_1[0][0]']
+ dense_2 (Dense)                (None, 1)            257         ['concatenate[0][0]']
+==================================================================================================
+Total params: 201,217
+Trainable params: 201,217
+Non-trainable params: 0
+__________________________________________________________________________________________________

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>RUSH GAMES - Inscription</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+  <h1>Inscription</h1>
+  <form action="inscription.php" method="post">
+   <label for="nom">Nom:</label>
+   <input type="text" name="nom" required>
+
+   <label for="prenom">Prénom:</label>
+   <input type="text" name="prenom" required>
+
+   <label for="pseudo">Pseudo gamer:</label>
+   <input type="text" name="pseudo" required>
+
+   <label for="plateforme">Plateforme:</label>
+   <select name="plateforme" required>
+    <option value="">Sélectionnez une plateforme</option>
+    <option value="PC">PC</option>
+    <option value="Playstation">Playstation</option>
+    <option value="Xbox">Xbox</option>
+    <option value="Switch">Switch</option>
+   </select>
+
+   <label for="age">Âge:</label>
+   <input type="number" name="age" required>
+
+   <label for="pays">Pays:</label>
+   <input type="text" name="pays" required>
+
+   <label for="telephone">Numéro de téléphone:</label>
+   <input type="tel" name="telephone" required>
+
+   <label for="email">E-mail:</label>
+   <input type="email" name="email" required>
+
+   <label for="motdepasse">Mot de passe:</label>
+   <input type="password" name="motdepasse" required>
+
+   <label for="confirm_motdepasse">Confirmer le mot de passe:</label>
+   <input type="password" name="confirm_motdepasse" required>
+
+   <input type="submit" value="S'inscrire">
+  </form>
+ </div>
+</body>
+</html>

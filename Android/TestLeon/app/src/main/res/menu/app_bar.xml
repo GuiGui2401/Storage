@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/item4"
+            android:icon="@drawable/baseline_view_list_24"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/item5"
+            android:icon="@drawable/baseline_account_balance_wallet_24"
+            android:title="Porte Feuille" />
+</menu>

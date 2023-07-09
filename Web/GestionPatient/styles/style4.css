@@ -1,0 +1,99 @@
+/* Style général de la page */
+
+.prescription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .prescription-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  .prescription-form input[type=text], 
+  .prescription-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .prescription-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .prescription-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 150px;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #0069d9;
+  }
+  
+  /* Style de la liste de prescriptions */
+  
+  .prescription-list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prescription-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 70%;
+  }
+  
+  .prescription-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .prescription-item p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .prescription-item span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
